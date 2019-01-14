@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    
+    
+       <TextView
+           android:text="How was your mood :"
+           android:textColor="@color/colorPrimary"
+           android:textSize="22sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+        <RatingBar
+            android:theme="@style/RatingBar"
+            android:rating="5"
+            android:stepSize="0.5"
+            android:numStars="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="Hours of sleep you got :"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColor="@color/colorPrimary"
+        android:inputType="number"
+        android:layout_margin="2px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+    <TextView
+        android:text="Your weight(kg):"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColor="@color/colorPrimary"
+        android:inputType="number"
+        android:layout_margin="2px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:text="Your apetite :"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RatingBar
+        android:theme="@style/RatingBar"
+        android:rating="5"
+        android:stepSize="0.5"
+        android:numStars="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:text="Anything special happened today :"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textColor="@color/colorPrimary"
+        android:inputType="textAutoComplete"
+        android:layout_margin="2px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/action_back"
+        android:background="@color/colorPrimary"
+        android:text="Proceed"
+        android:textColor="#D3D3D3"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/action_proceed"
+        android:text="Proceed"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <item
+         android:title="@string/meet"
+         android:orderInCategory="1"
+         app:showAsAction="ifRoom"
+         android:id="@+id/action_meet"/>
+     <item
+         android:title="@string/search"
+         android:orderInCategory="2"
+         app:showAsAction="ifRoom"
+         android:id="@+id/action_search"/>
+
+     <item
+         android:title="@string/self_checkup"
+         android:orderInCategory="3"
+         app:showAsAction="ifRoom"
+         android:id="@+id/action_contact">
+
+          <!--
+          <menu>
+               <item android:id="@+id/location"
+                      android:title="@string/place"/>
+
+
+
+          </menu>
+            -->
+
+
+
+     </item>
+
+</menu>
